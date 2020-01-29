@@ -1,0 +1,56 @@
+<html>
+    <title>Formulário</title>
+    <head></head>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <ul>
+        <li><a class="active" href="MSC.html">MSC Spot</a></li>
+        <li><a href="contact.html">Contactos</a></li>
+        <li><a href="about.html">Quem somos</a></li>
+        <li><a href="Formularios.html">Formulário</a></li>
+    </ul>
+    <body>
+        <form action="processa_dados.html" method="GET">
+            <p>
+                <label>Nome:</label>
+                <input type="text" name="nome">
+            </p>
+            <p>
+                <label>Sobrenome:</label>
+                <input type="text" name="sobrenome">
+            </p><br>
+            Género:
+            <p>
+                <input type="radio" value="Masculino" name="sexo">Masculino<br>
+            
+                <input type="radio" value="Feminino" name="sexo">Feminino<br>
+            
+                <input type="radio" value="Indiferenciado" name="sexo">Indiferenciado<br>
+            </p><br>
+            Como Contactar: <p>
+                <input type="checkbox" name="Contactar" value="Telefone">Telefone<br>
+                <input type="checkbox" name="Contactar" value="Telemovel">Telemóvel<br>
+                <input type="checkbox" name="Contactar" value="Email">E-mail<br>
+                 <input type="checkbox" name="Contactar" value="outro">Outro?
+                 Qual?<br>
+            <textarea name="observacoes" rows="4" cols="20"></textarea></p><br>
+                 <p>
+                     <label>Localidade:</label>
+                <select>
+                    <option>Lisboa</option>
+                    <option>Faro</option>
+                    <option>Porto</option>
+                    <option>Portalegre</option>
+                    <option>Braga</option>
+                    <option>Évora</option>
+                </select>
+                </p>
+            <p>
+                 Observações:<br>
+                 <textarea name="observacoes" rows="4" cols="20">Texto inicial qualquer...</textarea><br>
+            </p> 
+            <p>
+                 <button type="submit">Enviar</button>
+            </p>  
+        </form>
+    </body>
+</html>

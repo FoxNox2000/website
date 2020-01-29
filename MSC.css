@@ -1,0 +1,76 @@
+.um{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.rock{
+    background-image: url(unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.pop{
+    background-image: url(pop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: relative
+}
+.reggae{
+    background-image: url(reggae.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+.Metal{
+    background-image: url(metal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+.Hip-Hop{
+    background-image: url(hiphop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+.Eletronic{
+    background-image: url(eletronic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: orange;
+}
